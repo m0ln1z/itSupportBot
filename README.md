@@ -1,6 +1,6 @@
 # IT Support Chatbot
 
-Чат-бот с ИИ для автоматизации ИТ-поддержки компании.
+Чат-бот с ИИ для автоматизации ИТ-поддержки компании. Тест проект без супер реализации
 
 ## Описание проблемы
 
@@ -33,50 +33,6 @@
 - **Frontend**: HTML, CSS, JavaScript
 - **Deployment**: Docker
 
-## Установка
-
-1. Клонируйте репозиторий:
-```bash
-git clone <repository-url>
-cd ahub
-```
-
-2. Создайте виртуальное окружение:
-```bash
-python -m venv venv
-source venv/bin/activate  # На Windows: venv\Scripts\activate
-```
-
-3. Установите зависимости:
-```bash
-pip install -r requirements.txt
-```
-
-4. Создайте файл `.env` и добавьте необходимые переменные:
-```
-OPENAI_API_KEY=your_openai_api_key_here
-DATABASE_URL=sqlite:///./it_support.db
-SECRET_KEY=your_secret_key_here
-```
-
-5. Инициализируйте базу данных:
-```bash
-python -m app.database.init_db
-```
-
-6. Запустите приложение:
-```bash
-uvicorn app.main:app --reload
-```
-
-Приложение будет доступно по адресу: http://localhost:8000
-
-## Использование
-
-1. Откройте веб-интерфейс в браузере
-2. Начните диалог с ботом
-3. Задавайте вопросы по ИТ-поддержке
-4. Просматривайте статистику в админ-панели
 
 ## Функциональность
 
